@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/rian/NgodingYuk/penguin-python/Tensorflow/models/model_sess.ckpt"
+all_model_checkpoint_paths: "/home/rian/NgodingYuk/penguin-python/Tensorflow/models/model_sess.ckpt"
