@@ -1,12 +1,14 @@
 # Simple Sample Codes for Palmer Penguin Dataset Classification
 
-This is a collection of simple and easy-to-read programs for [Palmer Penguin](https://github.com/allisonhorst/palmerpenguins) classification (for teaching purposes).  You can find some different types of libraries available so that you can compare the implementation between one and another for the same usage. This repository is an improvement from the previous [iris-python repository](https://github.com/rianrajagede/iris-python).
+This is a collection of simple and easy-to-read programs for [Palmer Penguin](https://github.com/allisonhorst/palmerpenguins) classification (for teaching purposes).  I use several frameworks to classify this data, so the reader can compare the difference between one and another for the same usage. 
+
+This repository is an improvement from the previous [iris-python repository](https://github.com/rianrajagede/iris-python). Compared to Iris dataset, Palmer Penguin dataset is little bit challenging, because there are some preprocessing steps that necessary for this data (remove missing values, standardization, etc.).
 
 ![Penguin Team](lter_penguins.png)
 
 ## Procedure
 
-1. Load the data
+1. Load the [cleaned data](https://github.com/rianrajagede/penguin-python/tree/master/Datasets)
 2. Preprocess (convert to numeric, standardize)
 3. Train a model
 4. Test
