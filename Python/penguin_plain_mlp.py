@@ -50,9 +50,9 @@ for f in range(feat_len):
 """
 SECTION 2 : Build and Train Model
 Multilayer perceptron model, with one hidden layer.
-input layer : 4 neuron, represents the feature of Iris
+input layer : 4 neuron, represents the feature from Palmer Penguin dataset
 hidden layer : 3 neuron, activation using sigmoid
-output layer : 3 neuron, represents the class of Iris
+output layer : 3 neuron, represents the number of species
 optimizer = gradient descent
 loss function = Square ROot Error
 learning rate = 0.005

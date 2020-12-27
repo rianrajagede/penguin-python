@@ -36,9 +36,9 @@ xtrain = scaler.fit_transform(xtrain)
 SECTION 2 : Build and Train Model
 
 Multilayer perceptron model, with one hidden layer.
-input layer : 4 neuron, represents the feature of Iris
+input layer : 4 neuron, represents the feature from Palmer Penguin dataset
 hidden layer : 20 neuron, activation using ReLU
-output layer : 3 neuron, represents the class of Iris
+output layer : 3 neuron, represents the number of species, Softmax Layer
 
 optimizer = stochastic gradient descent with no batch-size
 loss function = categorical cross entropy

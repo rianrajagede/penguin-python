@@ -50,8 +50,8 @@ for f in range(feat_len):
 """
 SECTION 2 : Build and Train Model
 Single layer perceptron model
-input layer : 4 neuron, represents the feature of Iris
-output layer : 3 neuron, represents the class of Iris
+input layer : 4 neuron, represents the feature from Palmer Penguin dataset
+output layer : 3 neuron, represents the number of species
 optimizer = gradient descent
 loss function = Square ROot Error
 learning rate = 0.01
