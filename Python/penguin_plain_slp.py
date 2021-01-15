@@ -33,6 +33,7 @@ train_X = [data[1:] for data in datatrain]
 train_y = [data[0] for data in datatrain]
 
 # Min-max Scaling
+# palmer-penguin dataset has varying scales
 feat_len = len(train_X[0])
 data_len = len(train_X)
 mnm = [0]*feat_len

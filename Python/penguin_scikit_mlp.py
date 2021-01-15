@@ -29,6 +29,7 @@ xtrain = datatrain_array[:,1:]
 ytrain = datatrain_array[:,0]
 
 #standardize
+#palmer-penguin dataset has varying scales
 scaler = StandardScaler()
 xtrain = scaler.fit_transform(xtrain)
 
