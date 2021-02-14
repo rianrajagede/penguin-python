@@ -29,7 +29,8 @@ Please install `requirements.txt` file in each folder
 
 ## PyTorch
 - [Simple Neural Net using PyTorch][penguin_pytorch] (Multilayer perceptron model, with one hidden layer)
-- [Simple Neural Net using PyTorch Lightning][penguin_pytorch_lightning] (Multilayer perceptron model, with one hidden layer)
+- [Simple Neural Net using PyTorch Lightning][penguin_pytorch_lightning] (Multilayer perceptron model, with one 
+- [Simple Neural Net using Fastai][penguin_pytorch_fastai] (Multilayer perceptron model, with one hidden layer)
 
 ## Tensorflow
 - [Simple Neural Net using Tensorflow][penguin_tf] (Multilayer perceptron model, with one hidden layer)
@@ -42,5 +43,6 @@ Please install `requirements.txt` file in each folder
 [penguin_plain_2]:https://github.com/rianrajagede/penguin-python/blob/master/Python/penguin_plain_slp.py
 [penguin_pytorch]:https://github.com/rianrajagede/penguin-python/blob/master/Pytorch/penguin_pytorch.py
 [penguin_pytorch_lightning]:https://github.com/rianrajagede/penguin-python/blob/master/Pytorch/penguin_pytorch_lightning.py
+[penguin_pytorch_fastai]:https://github.com/rianrajagede/penguin-python/blob/master/Pytorch/penguin_pytorch_fastai.py
 [penguin_tf]:https://github.com/rianrajagede/penguin-python/blob/master/Tensorflow/penguin_tf_v1.py
 [penguin_tf_2]:https://github.com/rianrajagede/penguin-python/blob/master/Tensorflow/penguin_tf_v2.py
